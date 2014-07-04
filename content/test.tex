@@ -1,0 +1,52 @@
+\section{测试方案}\label{testing}
+
+项目的测试分两个部分：功能测试和环境测试。
+
+\subsection{功能测试}
+
+功能测试主要关注检测和校正的各项功能是否正确实现。
+
+\begin{table}[!h]
+\centering
+    \begin{tabular}{llr}
+    \toprule
+    序号      & 测试项目                         & 时间需求估计 \\
+    \midrule
+    1         & 图像采集                         & 2天          \\
+    2         & 预处理RAW图片                    & 2天          \\
+    3         & 智能搜索发光单元半径及坐标       & 3天          \\
+    4         & 像素坐标对应                     & 2天          \\
+    5         & 像素亮度计算                     & 2天          \\
+    6         & 像素色度计算                     & 2天          \\
+    7         & 均匀度评估                       & 2天          \\
+    8         & 校正矩阵计算                     & 3天          \\
+    9         & 校正结果预览                     & 4天          \\
+    10        & 校正结果上传                     & 3天          \\
+    \bottomrule
+    \end{tabular}
+    \caption{功能测试项目}
+    \label{tab:func_test}
+\end{table}
+
+\subsection{环境测试}
+
+环境测试目的在于了解校正系统正常运行对外界环境的要求，如拍摄角度、光照条件等。
+
+\begin{table}[!h]
+\centering
+    \begin{center}
+    \begin{tabular}{llr}
+    \toprule
+    序号      & 测试项目                         & 时间需求估计 \\
+    \midrule
+    1         & 拍摄距离                         & 3天          \\
+    2         & 拍摄角度                         & 5天          \\
+    3         & 光照条件                         & 4天          \\
+    \bottomrule
+    \end{tabular}
+    \end{center}
+    \caption{环境测试项目}
+    \label{tab:env_test}
+\end{table}
+
+\clearpage

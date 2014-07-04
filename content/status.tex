@@ -1,0 +1,28 @@
+\section{现状}\label{status}
+
+截至2014年5月，已经完成如下功能：
+
+\begin{itemize}
+    \item 图像采集
+    \item 预处理RAW图片
+    \item 智能搜索发光单元半径及坐标
+\end{itemize}
+
+\subsection{图像采集}\label{capture}
+
+通过USB接口控制 Canon EOS 5D Mark III 采集图像。
+
+\begin{enumerate}
+    \item 自动找出最佳成像的光圈、快门组合
+    \item 自动拍摄白、红、绿、蓝显示结果各N张
+\end{enumerate}
+
+\subsection{预处理RAW图片}\label{preprocess}
+
+综合N张图像进行降噪。
+
+\subsection{智能搜索发光单元半径及坐标}\label{search_pixel}
+
+使用 Hough Circles Transform 搜索图像中的发光单元，并确定每个单元的坐标、半径。
+
+\clearpage
